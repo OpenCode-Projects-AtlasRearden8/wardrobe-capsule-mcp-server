@@ -1,0 +1,130 @@
+{
+  "format": "wardrobe-capsule/1",
+  "items": {
+    "grey-hoodie": {
+      "id": "grey-hoodie",
+      "name": "grey hoodie",
+      "category": "tops",
+      "color": "grey",
+      "seasons": ["all"],
+      "styles": ["cozy", "casual"],
+      "wearability": 5,
+      "notes": "softest thing I own",
+      "last_worn": "2026-10-28",
+      "times_worn": 42,
+      "added": "2026-01-15"
+    },
+    "green-band-shirt": {
+      "id": "green-band-shirt",
+      "name": "green band shirt",
+      "category": "tops",
+      "color": "green",
+      "seasons": ["summer", "spring"],
+      "styles": ["casual"],
+      "wearability": 3,
+      "notes": "",
+      "last_worn": "2026-02-14",
+      "times_worn": 7,
+      "added": "2026-01-20"
+    },
+    "navy-chinos": {
+      "id": "navy-chinos",
+      "name": "navy chinos",
+      "category": "bottoms",
+      "color": "navy",
+      "seasons": ["all"],
+      "styles": ["work", "casual"],
+      "wearability": 4,
+      "notes": "",
+      "last_worn": "2026-10-30",
+      "times_worn": 30,
+      "added": "2026-01-15"
+    },
+    "black-blazer": {
+      "id": "black-blazer",
+      "name": "black blazer",
+      "category": "outerwear",
+      "color": "black",
+      "seasons": ["fall", "winter", "spring"],
+      "styles": ["work", "dressy"],
+      "wearability": 3,
+      "notes": "",
+      "last_worn": "2026-03-01",
+      "times_worn": 5,
+      "added": "2025-05-01"
+    },
+    "floral-summer-dress": {
+      "id": "floral-summer-dress",
+      "name": "floral summer dress",
+      "category": "dresses",
+      "color": "yellow",
+      "seasons": ["summer"],
+      "styles": ["dressy", "casual"],
+      "wearability": 4,
+      "notes": "",
+      "last_worn": "2026-08-02",
+      "times_worn": 12,
+      "added": "2025-06-01"
+    },
+    "decent-sneakers": {
+      "id": "decent-sneakers",
+      "name": "decent sneakers",
+      "category": "shoes",
+      "color": "white",
+      "seasons": ["all"],
+      "styles": ["casual", "active", "work"],
+      "wearability": 5,
+      "notes": "",
+      "last_worn": "2026-10-29",
+      "times_worn": 100,
+      "added": "2026-01-15"
+    },
+    "red-scarf-gift": {
+      "id": "red-scarf-gift",
+      "name": "red scarf (gift)",
+      "category": "accessories",
+      "color": "red",
+      "seasons": ["winter"],
+      "styles": ["cozy"],
+      "wearability": 4,
+      "notes": "gift from aunt merle",
+      "last_worn": null,
+      "times_worn": 0,
+      "added": "2025-12-20"
+    },
+    "fancy-silver-watch": {
+      "id": "fancy-silver-watch",
+      "name": "fancy silver watch",
+      "category": "accessories",
+      "color": "silver",
+      "seasons": ["all"],
+      "styles": ["dressy", "work"],
+      "wearability": 4,
+      "notes": "",
+      "last_worn": "2026-10-25",
+      "times_worn": 20,
+      "added": "2026-01-15"
+    }
+  },
+  "donated": {
+    "old-college-tee": {
+      "id": "old-college-tee",
+      "name": "old college tee",
+      "category": "tops",
+      "color": "purple",
+      "seasons": ["summer"],
+      "styles": ["home"],
+      "wearability": 2,
+      "notes": "so long, old friend",
+      "last_worn": "2026-01-02",
+      "times_worn": 60,
+      "added": "2024-09-01",
+      "removed": "donated",
+      "removed_date": "2026-10-30"
+    }
+  },
+  "wear_log": [
+    { "id": "navy-chinos", "date": "2026-10-30" },
+    { "id": "decent-sneakers", "date": "2026-10-29" }
+  ]
+}

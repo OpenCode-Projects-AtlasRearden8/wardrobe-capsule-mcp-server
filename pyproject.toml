@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wardrobe-capsule-mcp-server"
+version = "0.1.0"
+description = "Local MCP server for a calmer closet: log your real clothes, get outfit ideas for weather and occasion, track what stays unworn, build trip packing lists, and triage a donate bag by last-worn date."
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "Asdale Dynamics, LLC" }]
+keywords = ["mcp", "wardrobe", "capsule", "packing-list", "donate", "local-first", "adhd-friendly"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: End Users/Desktop",
+    "Programming Language :: Python :: 3",
+    "Topic :: Utilities",
+]
+dependencies = ["mcp>=1.2,<3"]
+
+[project.scripts]
+wardrobe-capsule-server = "wardrobe_capsule.server:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
